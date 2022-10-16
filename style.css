@@ -1,0 +1,269 @@
+body{
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-color: #4D9AAD;
+   }
+.header{
+    color: #EBEBEB; 
+    background-color: #4D9AAD;  
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.nav{
+    align-self: center;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+    font-weight: bold;
+}
+.header img{
+    display: none;
+}
+.sammy{
+    align-items: center;
+    margin-left: 3rem;
+}
+.project h1{
+    color: #4D9AAD;
+}
+
+.software{
+    background-color: #EBEBEB;
+    width: 100%;
+}
+
+.btn1{
+    background-color: #ffff;
+    color: #4D9AAD;
+    border-radius: 5px;
+    padding: 6px; 
+}
+
+.btn2{
+    background-color: #157293;
+    color: #ffff;
+    border-radius: 5px;
+    padding-left:10px;
+}
+
+.footmed{
+    background-color: #157293;
+    margin-top: 0%;
+}
+
+.project{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.pro-1{
+    width: 35%;
+    margin-left: 1rem;
+}
+
+.design{
+    display: flex;
+    justify-content: space-between;
+}
+.design button{
+    height: 30px;
+    align-self: center;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #157293;
+    color: white;
+    width: 100px;
+    border: 0;
+    margin-right: 80px;
+}
+
+.design h2{
+    width: 80%;
+    margin-left: 160px;
+}
+
+.wrapper{
+    background-color:  #4D9AAD;
+}
+.availability{
+    background-color: #4D9AAD;
+    display: flex;
+    
+}
+.availability h2{
+    width: 35%;
+    margin-left: 2rem;
+    color: white;
+}
+
+.software .imageset-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.software .imageset-1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-1{
+    margin-left: 70%;
+}
+
+.img-2{
+    margin-left: 70px;
+}
+
+.availability button{
+    height: 30px;
+    width: 85px;
+    border: none;
+    /* margin-left: 80%; */
+}
+.call{
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 2rem;
+}
+
+.footmed{
+    text-align: center;
+    padding-top: 20px;
+    color: #ffff;
+}
+.footer a{
+    text-decoration: none;
+    color: #ffff;
+}
+@media (max-width:414px) {
+    .software .imageset-1{
+        display: block;
+        width: 100%;
+    }
+    .software{
+        width: 100%;
+    }
+    .project{
+        display: block;
+    }
+    .pro-1{
+        width: 80%;    
+    }
+    .availability h2{
+        width: 60%;
+    }
+    .availability img{
+        display: none;
+    }
+    .sammy{
+        float: left;
+    }
+    /* .header{
+        width: 100%;
+    } */
+    .design{
+        display: block;
+    }
+    .design h2{
+        width: 80%;
+        margin-left: 2rem;
+    }
+    .design div{
+        padding-top: 2rem;
+    }
+    .design button{
+        margin-left: 2rem;
+    }
+    .header img{
+        display:inline;
+        margin-right: 30px;
+        fill: #ffff;
+    }
+    .img-1, .img-2{
+        display: none;
+    }
+    .availability{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+
+}
+@media (min-width:768px){
+    .software .imageset-1{
+        display: block;
+        width: 100%;
+    }
+    .software{
+        width: 100%;
+    }
+    .project{
+        display: block;
+    }
+    .pro-1{
+        width: 80%;    
+    }
+    .availability h2{
+        width: 60%;
+        margin-left: 5rem;
+    }
+    .availability .call{
+        margin-right: 2rem;
+    }
+    .availability img{
+        display: none;
+    }
+    .sammy h1{
+        float: left;
+        margin-left: 2rem;
+    }
+    /* .header{
+        width: 100%;
+    } */
+    .design{
+        display: block;
+    }
+    .design h2{
+        width: 80%;
+        margin-left: 2rem;
+    }
+    .design{
+        margin-left: 3rem;
+        padding-top: 3rem;
+    }
+    .design button{
+        margin-left: 2rem;
+    }
+    .header img{
+        display:inline;
+        margin-right: 30px;
+        fill: #ffff;
+    }
+    .img-1, .img-2{
+        display: none;
+    }
+    .availability{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+}
